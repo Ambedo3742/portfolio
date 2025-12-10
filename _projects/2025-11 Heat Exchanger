@@ -3,55 +3,65 @@ layout: project
 title: Thermodynamic Analysis of Heat Exchanger
 description: Class project with heat exchanger
 technologies: [Thermodynamics, Heat Exchanger]
-image: /assets/images/Brazed plate heat exchanger cut away.jpg 
+image: /assets/images/Brazed plate heat exchanger cut away.jpg
 ---
 
 <head>
-    <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
     </script>
 </head>
 
-<body> 
+<body>
 
-<h3> Introduction </h3>
-As part of a class project, our group conducted an analysis on the performance of a brazed plate heat exchanger when used with heated and chilled water. In the image below, the heat exchanger is set to operate in a counter-flow configuration. We also took measurements regarding a parallel flow configuration. 
+    <h3> Introduction </h3>
+    As part of a class project, our group conducted an analysis on the performance of a brazed plate heat exchanger when
+    used with heated and chilled water. In the image below, the heat exchanger is set to operate in a counter-flow
+    configuration. We also took measurements regarding a parallel flow configuration.
 
-<img src="/assets/images/Setup wet.JPG" width="500" /> <br> 
-For this setup, we used two submersible water pumps to pump water from resevoirs, through the heat exchanger and into catch buckets.
-<br>
-<br>
+    <img src="/assets/images/Setup wet.JPG" width="500" /> <br>
+    For this setup, we used two submersible water pumps to pump water from resevoirs, through the heat exchanger and
+    into catch buckets.
+    <br>
+    <br>
 
-<h3> Diagram </h3>
+    <h3> Diagram </h3>
 
-<br>
-<h3> Analysis </h3>
-<h5>Data</h5>
-<img src="/assets/images/Lab data.PNG" width="500" /> <br> <br>
-<h5> Assumptions </h5>
-<ul style="list-style-type:disc;">
-<li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
-<li> As noted below, there was more than one heat flow into the system. Heat likely flowed into the cold side of the heat exchanger, while simulanteously flowing out of the hot side. Unfortunately, my group did not take quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
-    <ul> 
-    <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\)  as a single term </li>
+    <br>
+    <h3> Analysis </h3>
+    <h5>Data</h5>
+    <img src="/assets/images/Lab data.PNG" width="500" /> <br> <br>
+    <h5> Assumptions </h5>
+    <ul style="list-style-type:disc;">
+        <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat
+            exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
+        <li> As noted below, there was more than one heat flow into the system. Heat likely flowed into the cold side of
+            the heat exchanger, while simulanteously flowing out of the hot side. Unfortunately, my group did not take
+            quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
+            <ul>
+                <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\) as a single term </li>
+            </ul>
+        <li>
+            I modeled the liquid water as an incompressible substance, using \(c_p\) values from "Fundamentals of
+            Engineering Thermodynamics" reference tables, interpolated to the average temperature
+        </li>
+        <li>
+            I modeled the system as steady state
+        </li>
+        <li>
+            I modeled the mass flow rate of both fluids as roughly equal, as they were being driven by identical pumps
+        </li>
+
     </ul>
-<li> 
-    I modeled the liquid water as an incompressible substance, using \(c_p\) values from "Fundamentals of Engineering Thermodynamics" reference tables, interpolated to the average temperature
-</li>
-<li>
-    I modeled the system as steady state
-</li>
-<li>
-    I modeled the mass flow rate of both fluids as roughly equal, as they were being driven by identical pumps 
-</li>
+    <h3> Qualitative Notes </h3>
+    <ul style="list-style-type:disc;">
+        <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the
+            heat exchanger was not truely adiabatic. </li>
+        <li>Additionally, counter-flow resulted in a greater temperature differential. Though it may be surprising that
+            changing the directions of the flow would impact the efficiency of the heat exchanger so significantly, this
+            makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow,
+            it is possible for each line to approach the original temperature the opposite resevoir. </li>
+    </ul>
 
-</ul>
-<h3> Qualitative Notes </h3>
-<ul style="list-style-type:disc;">
-<li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the heat exchanger was not truely adiabatic. </li>
-<li>Additionally, counter-flow resulted in a greater temperature differential. Though it may be surprising that changing the directions of the flow would impact the efficiency of the heat exchanger so significantly, this makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow, it is possible for each line to approach the original temperature the opposite resevoir. </li>
-</ul>
-
-<br> <br>
+    <br> <br>
 
 </body>
