@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Eric Luo
 description              : Eric Luo - Projects and CV 
-baseurl                  : "/fa25-portfolio-Ambedo3742/" 
+baseurl                  : "" #/fa25-portfolio-Ambedo3742/
 
 # Theme and Style
 theme: jekyll-theme-minimal
