@@ -25,7 +25,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     </ul>
 
     <h3> Diagram </h3>
-    
+
     <h3> Analysis </h3>
     <h5>Data</h5>
     <img src="/assets/images/Lab data.PNG" width="500" /> <br> <br>
@@ -38,6 +38,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
             quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
             <ul>
                 <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\) as a single term </li>
+                <li> I will explicitly calculate the value of \(Q_{ambient}\) to determine whether or not it is negligible</li>
             </ul>
         <li>
             I modeled the liquid water as an incompressible substance, using \(c_p\) values from Table A-19 of
@@ -59,16 +60,14 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     c_{p, c} = 4.201 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.179 \frac{kJ}{kg*K} \\
     \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out}) \\
     W = 0, \ \dot{Q}_{ambient} = \dot{m}_{c}((h_{c,out}+h_{c,in}) + (h_{h,out}+h_{h,in})) \\
-    \dot{Q}_{ambient} = \dot{m}_{c}(c_{p,c}(h_{c,out}+h_{c,in}) + c_{p,h}(h_{h,out}+h_{h,in})) \\
+    \dot{Q}_{ambient} = \dot{m}_{c}(c_{p,c}(T_{c,out}+T_{c,in}) + c_{p,h}(T_{h,out}+T_{h,in})) \\
     \frac{\dot{Q}_{ambient}}{\dot{m}} = 0.77 \frac{kJ}{kg*K}
     $$
     <h6> \(Q_{ambient}\) for Counter Flow </h6>
     $$
     T_{c, avg}= 14 \; ^oC \qquad T_{h, avg}= 23.3 \; ^oC \\
     c_{p, c} = 4.159 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.184 \frac{kJ}{kg*K} \\
-    \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out}) \\
-    W = 0, \ \dot{Q}_{ambient} = \dot{m}_{c}((h_{c,out}+h_{c,in}) + (h_{h,out}+h_{h,in})) \\
-    \dot{Q}_{ambient} = \dot{m}_{c}(c_{p,c}(h_{c,out}+h_{c,in}) + c_{p,h}(h_{h,out}+h_{h,in})) \\
+    \dot{Q}_{ambient} = \dot{m}_{c}(c_{p,c}(T_{c,out}+T_{c,in}) + c_{p,h}(T_{h,out}+T_{h,in})) \\
     \frac{\dot{Q}_{ambient}}{\dot{m}} = 0.77 \frac{kJ}{kg*K}
     $$
     <h6> Interpretation</h6>
