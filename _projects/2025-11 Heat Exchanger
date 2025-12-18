@@ -11,6 +11,19 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     </script>
 </head>
 
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 22px;
+  padding-top: 2px;
+  padding-bottom:2px;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+</style>
+
 <body>
 
     <h3> Introduction </h3>
@@ -27,23 +40,42 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     <h3> Diagram </h3>
 
     <h3> Analysis </h3>
-    <h5>Data</h5>
-    <img src="/assets/images/Lab data.PNG" width="500" /> <br> <br>
+    <h5><a href="/assets/images/Lab data.PNG">Data</a></h5>
+   <h6>Parallel Flow</h6>
     <table>
   <tr>
-    <th>Person 1</th>
-    <th>Person 2</th>
-    <th>Person 3</th>
+    <th>\(^oC\)</th>
+    <th>Cold</th>
+    <th>Hot</th>
   </tr>
   <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <th>In </th>
+    <td>4.2</td>
+    <td>38.9</td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <th>Out</th>
+    <td>20.1</td>
+    <td>23.1</td>
+  </tr>
+</table>
+
+<h6>Counter Flow</h6>
+    <table>
+  <tr>
+    <th>\(^oC\)</th>
+    <th>Cold</th>
+    <th>Hot</th>
+  </tr>
+  <tr>
+    <th>In </th>
+    <td>4.2</td>
+    <td>38.8</td>
+  </tr>
+  <tr>
+    <th>Out</th>
+    <td>23.8</td>
+    <td>17.8</td>
   </tr>
 </table>
 
