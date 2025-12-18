@@ -73,7 +73,8 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     \frac{\dot{Q}_{ambient}}{\dot{m}} = 0.77 \frac{kJ}{kg*K}
     $$
     <h6> Interpretation</h6>
-    Compared to the 
+    Compared to the heat exchange between the cold and hot water flows, \(Q_ambient\) is negligible. In future
+    calculations, I will model the heat exchanger as roughly adiabatic.
     <h3> Qualitative Notes </h3>
     <ul style="list-style-type:disc;">
         <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the
