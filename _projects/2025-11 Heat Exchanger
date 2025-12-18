@@ -54,10 +54,23 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
 
     </ul>
     <h5> Calculations </h5>
+    <h6> \(Q_{ambient}\) for Parallel Flow </h6>
     $$
     T_{c, avg}= 12.15 \; C \\
     c_{p, c} = 4.201 \frac{kJ}{kg*K} \\
-     \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out})
+    \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out}) \\
+    W = 0, \ \dot{Q}_{ambient} = \dot{m}_{c}((h_{c,out}+h_{c,in}) + (h_{h,out}+h_{h,in})) \\
+    \dot{Q}_{ambient} = \dot{m}_{c}(c_{p,c}(h_{c,out}+h_{c,in}) + c_{p,h}(h_{h,out}+h_{h,in})) \\
+    \frac{\dot{Q}_{ambient}}{\dot{m}} = -0.77 \frac{kJ}{kg*K}
+    $$
+    <h6> \(Q_{ambient}\) for Parallel Flow </h6>
+    $$
+    T_{c, avg}= 12.15 \; C \\
+    c_{p, c} = 4.201 \frac{kJ}{kg*K} \\
+    \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out}) \\
+    W = 0, \ \dot{Q}_{ambient} = \dot{m}_{c}((h_{c,out}+h_{c,in}) + (h_{h,out}+h_{h,in})) \\
+    \dot{Q}_{ambient} = \dot{m}_{c}(c_{p,c}(h_{c,out}+h_{c,in}) + c_{p,h}(h_{h,out}+h_{h,in})) \\
+    \frac{\dot{Q}_{ambient}}{\dot{m}} = -0.77 \frac{kJ}{kg*K}
     $$
     <h3> Qualitative Notes </h3>
     <ul style="list-style-type:disc;">
