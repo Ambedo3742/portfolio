@@ -52,6 +52,12 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
         </li>
 
     </ul>
+    <h5> Calculations </h5>
+    $$ 
+        T_{c, avg}= 12.15 \; C \\
+        c_{p, c} = 4.201 \frac{kJ}{kg*K} \\
+
+    $$ 
     <h3> Qualitative Notes </h3>
     <ul style="list-style-type:disc;">
         <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the
