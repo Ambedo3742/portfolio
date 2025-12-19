@@ -152,7 +152,7 @@ footer {
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 250px; 
-  max-height: 450px; 
+  max-height: 350px; 
 }
 
 .gallery-item img {
@@ -167,7 +167,7 @@ footer {
 }
 
 .gallery-item p {
-  margin: 13px 0;
+  margin: 13px 0 13px;
   font-size: .9rem;
   color: $text-color;
 }
