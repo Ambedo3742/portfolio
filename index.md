@@ -14,4 +14,4 @@ In my own time, I enjoy making my life easier, be that through physical and ment
 
 This site, much like my life, is a work in progress.
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | assets/Eric Luo Resume.pdf }}">CV</a>.
+Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | "/fa25-portfolio-EricLuo/assets/Eric Luo Resume.pdf"}}>CV</a>.
