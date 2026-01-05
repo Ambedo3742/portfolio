@@ -23,7 +23,7 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
   GPA: 3.907/4.0 | Graduation: May 2028
 
-- **[Glastonbury High School]**  
+- **Glastonbury High School**  
   *High School Diploma*  
   Graduation: May 2024
 
@@ -40,14 +40,9 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Projects
 
 - **[Thermodynamic Analysis of Heat Exchanger]**:  
-  *Behavior of Brazed Plate Heat Exchanger in Parallel and Counter Flow Configuration*  
+  *Behavior of Brazed Plate Heat Exchanger in Parallel and Counter Flow*  
   - Took measurements under real-world conditions
   - Used measurements to validate assumptions and quantify performance
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
 
 ---
 
@@ -62,15 +57,15 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 
 #### Achievements & Certifications
 
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- First Aid and CPR/AED, Red Cross, 2024  
+- [Water Safety Instructor], Red Cross, 2024  
 
 ---
 
 #### Extracurricular Activities
 
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of SASE Cornell
+- Executive Member of Absolute Zero Dance  
 
 ---
 
