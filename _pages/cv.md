@@ -13,7 +13,7 @@ permalink: /cv/
 
 #### Objective
 
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in problem solving and communication. Passionate about refining my abilities and eager to apply my knowledge in real-world applications.
 
 ---
 
@@ -43,13 +43,14 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
   *Behavior of Brazed Plate Heat Exchanger in Parallel and Counter Flow*  
   - Took measurements under real-world conditions
   - Used measurements to validate assumptions and quantify performance
+  - Applied thermodynamic principles to understand behavior
 
 ---
 
 #### Work Experience
 
 - **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
+  Dec, 2025 - Current  
   - Responsibility 1  
   - Responsibility 2  
 
