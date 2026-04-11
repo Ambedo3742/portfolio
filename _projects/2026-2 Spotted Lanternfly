@@ -22,26 +22,26 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
 
   <hr> <br> <br>
 
-  <h3 id="intro"> Introduction </h3>
+  <h2 id="intro"> Introduction </h2>
   Working in collaboration with Cornell CALS Extension, E&J Gallo Winery, and National Grape, our team proposed 2
   concepts for the removal of spotted lanternflies
   from harvested grapes.
 
-  <br>
-  <h3 id="prop"> Client Pitch </h3>
+  <br><br>
+  <h2 id="prop"> Client Pitch </h2>
   <object data="/fa25-portfolio-EricLuo/assets/images/Client Outline & Pitch.pdf" type="application/pdf" width="150%"
     height="900px">
     <p>Unable to display PDF file. <a
         href="/fa25-portfolio-EricLuo/assets/images/Client Outline & Pitch.pdf">Download</a> instead.</p>
   </object>
   <br>
-  <h3 id="funcProto"> Functional Prototype </h3>
+  <h2 id="funcProto"> Functional Prototype </h2>
   Our concept is a filtering brush mechanism designed to remove SLF from grapes during the harvesting processing. Grapes
   will travel along the harvesting machine’s conveyor belt and pass through a rotating brush placed above. The brush
   will lightly contact the product stream, applying enough force to knock off the SLF from the grapes while minimizing
   product loss.
   <br>
-  <h4> Design Tests </h4>
+  <h3> Design Tests </h3>
   Our prototype consists of a rotating brush mounted above a conveyor system to remove spotted lanternflies (SLF) from
   grapes during harvesting. The main mechanical risks involve brush motion and structural stability. The following tests
   were performed to evaluate mechanical performance.
