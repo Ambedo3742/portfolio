@@ -20,7 +20,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
     <li><a href="#funcProto"> Functional Prototype </a><br /></li>
   </ul>
 
-  <hr>
+  <hr> <br>
 
   <h3 id="intro"> Introduction </h3>
   Working in collaboration with Cornell CALS Extension, E&J Gallo Winery, and National Grape, our team proposed 2
@@ -36,6 +36,11 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   </object>
 
   <h3 id="funcProto"> Functional Prototype </h3>
-  some text
+  Our concept is a filtering brush mechanism designed to remove SLF from grapes during the harvesting processing. Grapes
+  will travel along the harvesting machine’s conveyor belt and pass through a rotating brush placed above. The brush
+  will lightly contact the product stream, applying enough force to knock off the SLF from the grapes while minimizing
+  product loss.
+  
+
 
 </body>
