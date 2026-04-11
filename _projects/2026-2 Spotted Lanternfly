@@ -46,7 +46,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   grapes during harvesting. The main mechanical risks involve brush motion and structural stability. The following tests
   were performed to evaluate mechanical performance.
 
-  Test 1: Brush Lengths
+  Test 1: Brush Lengths <br>
   We bought three brush lengths to test for the optimal stiffness of the brushes’ bristles. The bristles were from the
   same supplier and material, and were mounted in the same spiral pattern. Thus, the only variable was the length of the
   bristles. The longer the bristles, the less stiffly they would interact with the target. We tested the brush lengths
@@ -59,34 +59,39 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
     </tr>
     <tr>
       <td>1” (shortest, stiffest)</td>
-      <td> 2” </td>
-      <td>3” (longest, least stiff) </td>
-    </tr>
-    <tr>
-      <td>Bristles were highly rigid and transferred significant force upon contact. This caused
+      <td> Bristles were highly rigid and transferred significant force upon contact. This caused
         frequent grape displacement, which if tested with real grapes could cause product damage. Clearance issues were
         observed, with the brush aggressively contacting grapes while interacting with SLF. While SLF removal force was
         high,
-        the damage and displacement to grapes was also noticeably high.</td>
+        the damage and displacement to grapes was also noticeably high. </td>
+    </tr>
+    <tr>
+      <td>2"</td>
       <td>Provided a moderate balance between stiffness and flexibility. SLF removal was generally effective, but
         intermittent grape displacement still occurred, especially at higher RPMs. Some grapes were nudged out of
         alignment or
         lightly launched, indicating that the brush still applied excessive force under certain conditions. Clearance
         improved
         compared to the 1” brush but was not fully reliable.</td>
-      <td>Bristles exhibited greater flexibility, allowing them to conform to the grape surface
-        while maintaining contact with the modeled SLF. This resulted in a scraping or peeling action that consistently
-        removed SLF without applying enough force to significantly move or eject grapes. Grape flow remained stable, and
-        clearance issues were minimized. Performance was relatively consistent across tested RPMs. </td>
+    </tr>
+    <tr>
+      <td>3” (longest, least stiff)</td>
+      <td>Bristles exhibited greater flexibility, allowing them to conform to the grape surface while maintaining
+        contact with the modeled SLF. This resulted in a scraping or peeling action that consistently removed SLF
+        without applying enough force to significantly move or eject grapes. Grape flow remained stable, and clearance
+        issues were minimized. Performance was relatively consistent across tested RPMs.
+
+      </td>
     </tr>
   </table>
 
-
+  <br>
 
   Based on these observations, it is clear that the 3” brush was the most effective. For the following test, we used the
   3” brush. For our next prototype, we will also use a 3” brush in our design.
 
-  Test 2: Maximum Rotation Speed and Brush Direction Test
+  <br>
+  Test 2: Maximum Rotation Speed and Brush Direction Test <br>
   We tested the stability of our mounts by seeing how fast we could drive our shaft with a cordless drill before our
   prototype started shaking. We wanted to see the max RPM of our prototype before it became ineffective. To evaluate, we
   made a mock conveyor belt and modeled grapes out of clay, each of the approximate weight of a grape (5-7g). We modeled
@@ -94,8 +99,27 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   cordless drill and measured how many SLF were knocked off and how much our mounting moved. By changing the direction
   of the drill, we also tested whether a clockwise or counterclockwise brush rotation was more effective for SLF
   removal.
+  <br>
+  <table>
+    <tr>
+      <th>Driving Direction of Brush</th>
+      <th>Drill Speed Setting</th>
+      <th># Modeled SLF Knocked Off</th>
+      <th>Movement of Mounts</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
 
-  | Driving Direction of Brush | Drill Speed Setting | \# Modeled SLF Knocked Off | Movement of Mounts |
+  | | | \ | |
   | :---: | :---: | :---: | :---: |
   | Clockwise | 1 (≈ 500 RPM) | 3/8 | Manageable (1-2mm) |
   | Clockwise | 2 (≈ 2,000 RPM) | 6/8 | Somewhat unstable (\> 5mm), added weights mitigated movement |
