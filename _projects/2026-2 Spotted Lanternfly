@@ -100,6 +100,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   of the drill, we also tested whether a clockwise or counterclockwise brush rotation was more effective for SLF
   removal.
   <br>
+
   <table>
     <tr>
       <th>Driving Direction of Brush</th>
@@ -119,13 +120,13 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
       <td>6/8</td>
       <td>Somewhat unstable (> 5mm), added weights mitigated movement</td>
     </tr>
-    tr>
+    <tr>
       <td>Counterclockwise</td>
       <td>1 (≈ 500 RPM)</td>
       <td>0/8</td>
       <td>Manageable (1-2mm)</td>
     </tr>
-    tr>
+    <tr>
       <td>Counterclockwise</td>
       <td>2 (≈ 1500 RPM)</td>
       <td>1/8</td>
