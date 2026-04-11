@@ -108,23 +108,31 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
       <th>Movement of Mounts</th>
     </tr>
     <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
-      <td>Germany</td>
+      <td>Clockwise</td>
+      <td>1 (≈ 500 RPM)</td>
+      <td>3/8</td>
+      <td>Manageable (1-2mm)</td>
     </tr>
     <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
+      <td>Clockwise</td>
+      <td>2 (≈ 1500 RPM)</td>
+      <td>6/8</td>
+      <td>Somewhat unstable (> 5mm), added weights mitigated movement</td>
+    </tr>
+    tr>
+      <td>Counterclockwise</td>
+      <td>1 (≈ 500 RPM)</td>
+      <td>0/8</td>
+      <td>Manageable (1-2mm)</td>
+    </tr>
+    tr>
+      <td>Counterclockwise</td>
+      <td>2 (≈ 1500 RPM)</td>
+      <td>1/8</td>
+      <td>Somewhat unstable (> 5mm), added weights mitigated movement</td>
     </tr>
   </table>
 
-  | | | \ | |
-  | :---: | :---: | :---: | :---: |
-  | Clockwise | 1 (≈ 500 RPM) | 3/8 | Manageable (1-2mm) |
-  | Clockwise | 2 (≈ 2,000 RPM) | 6/8 | Somewhat unstable (\> 5mm), added weights mitigated movement |
-  | Counterclockwise | 1 (≈ 500 RPM) | 0/8 | Manageable (1-2mm) |
-  | Counterclockwise | 2 (≈ 2,000 RPM) | 0/8 | Somewhat unstable (\> 5mm), added weights mitigated movement |
 
   Conclusion: For drill speeds higher than the first setting, our mounts moved \> 5mm. To continue our tests, we used
   weights to keep the mounts in place, but in the future our mounting design needs to be updated to be sturdier. In the
