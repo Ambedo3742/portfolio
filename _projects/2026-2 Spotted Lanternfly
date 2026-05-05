@@ -35,7 +35,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
     <p>Unable to display PDF file. <a
         href="/fa25-portfolio-EricLuo/assets/images/Client Outline & Pitch.pdf">Download</a> instead.</p>
   </object>
-  <br>
+  <br> <br>
   <h2 id="funcProto"> Functional Prototype </h2>
   Our concept is a filtering brush mechanism designed to remove SLF from grapes during the harvesting processing. Grapes
   will travel along the harvesting machine’s conveyor belt and pass through a rotating brush placed above. The brush
@@ -145,4 +145,9 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   higher quality brushes for our next prototype.
 
  <h2 id="report"> Client Report </h2>
+  <object data="/fa25-portfolio-EricLuo/assets/images/ODP 6 - Client Report.pdf" type="application/pdf" width="100%"
+    height="900px">
+    <p>Unable to display PDF file. <a
+        href="/fa25-portfolio-EricLuo/assets/images/ODP 6 - Client Report.pdf">Download</a> instead.</p>
+  </object>
 </body>
