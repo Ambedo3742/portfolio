@@ -37,6 +37,14 @@ body {
   padding: 0;
 }
 
+.indent-block {
+
+  margin-left: 40px;
+
+  /* or padding-left: 40px; */
+
+}
+
 header, footer {
   padding: 10px 5px;
   background: $primary-color;
