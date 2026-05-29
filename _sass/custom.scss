@@ -22,9 +22,6 @@ $text-color: #333;
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -50,6 +47,7 @@ header, footer {
   padding: 10px 5px;
   background: $primary-color;
   color: $background-color;
+  justify-content: center;
 }
 
 header {
