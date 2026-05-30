@@ -39,6 +39,10 @@ body {
   padding: 0;
 }
 
+nav {
+  background-color: $primary-color;
+}
+
 nav ul {
   font-family: 'Merriweather', serif;
   font-weight: 700;
@@ -46,7 +50,6 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
 }
 
 nav ul li {
