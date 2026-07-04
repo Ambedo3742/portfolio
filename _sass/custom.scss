@@ -4,7 +4,7 @@ $background-color: #f7f8fa;
 $text-color: #333;
 
 
-.navbar, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
   background-color: $background-color;
@@ -24,11 +24,15 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: $primary-color;
-  margin-bottom: 40px;
+header, footer {
+  padding: 10px 5px;
+  background: $primary-color;
+  color: $background-color;
 }
 
+header {
+  margin-bottom: 40px;
+}
 
 header ul {
   font-family: 'Merriweather', serif;
@@ -52,11 +56,6 @@ header ul li a {
 
 header ul li a:hover {
   background-color: #111111;
-}
-header, footer {
-  padding: 10px 5px;
-  background: $primary-color;
-  color: $background-color;
 }
 
 footer {
