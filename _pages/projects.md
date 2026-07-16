@@ -5,8 +5,8 @@ permalink: /projects/
 ---
 
 <div class="gallery-container">
+<h2 class="section-title"> Featured </h2>
 <div class="project-gallery">
-  <h2 class="section-title"> Featured </h2>
     {% for project in site.projects %}
       <div class="gallery-item">
         <a href="{{ project.url | relative_url }}">
@@ -15,7 +15,9 @@ permalink: /projects/
         </a>
       </div>
     {% endfor %}
-  <h2 class="section-title"> Other </h2>
+</div>
+<h2 class="section-title"> Other </h2>
+<div class="project-gallery">
     {% for project in site.projects %}
       <div class="gallery-item">
         <a href="{{ project.url | relative_url }}">
