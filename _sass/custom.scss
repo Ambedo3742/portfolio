@@ -4,7 +4,12 @@ $background-color: #f7f8fa;
 $text-color: #333;
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
   background-color: $background-color;
@@ -30,13 +35,86 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  --grid-hue: 220;
+  /* color of background/lines */
+  --grid-gap: 12px;
+  /* size of the minor squares (line gaps) */
+  --grid-opacity: 0.35;
+  /* opacity of crosses */
+
+  --grid-border: 16px;
+
+  --grid-light: hsl(var(--grid-hue), 50%, 92%);
+  --grid-dark: hsl(var(--grid-hue), 20%, 18%);
+  --grid-bg: light-dark(var(--grid-light), var(--grid-dark));
+
+  --grid-minor: light-dark(hsl(var(--grid-hue) 60% 20% / calc(var(--grid-opacity) * 0.125)), hsl(var(--grid-hue) 60% 80% / calc(var(--grid-opacity) * 0.125)));
+  --grid-major: light-dark(hsl(var(--grid-hue) 60% 20% / calc(var(--grid-opacity) * 0.35)), hsl(var(--grid-hue) 60% 80% / calc(var(--grid-opacity) * 0.35)));
+  --grid-cross: light-dark(hsl(var(--grid-hue) 60% 20% / var(--grid-opacity)), hsl(var(--grid-hue) 60% 80% / var(--grid-opacity)));
+
+  --paper-lines-y: linear-gradient(var(--grid-minor) 0px 1px, transparent 1px var(--grid-gap));
+  --paper-lines-x: linear-gradient(to right, var(--grid-minor) 0px 1px, transparent 1px var(--grid-gap));
+  --paper-lines-y-major: linear-gradient(var(--grid-major) 0px 1px, transparent 1px calc(var(--grid-gap) * 5));
+  --paper-lines-x-major: linear-gradient(to right, var(--grid-major) 0px 1px, transparent 1px calc(var(--grid-gap) * 5));
+  --paper-cross-y: linear-gradient(var(--grid-cross) 0px 1px, transparent 1px calc(var(--grid-gap) * 5));
+  --paper-cross-x: linear-gradient(to right, var(--grid-cross) 0px 1px, transparent 1px calc(var(--grid-gap) * 5));
+  --paper-cross-mask: radial-gradient(circle at center, transparent calc(var(--grid-gap)/2), var(--grid-bg) calc(var(--grid-gap)/2) 100%);
+
+  --paper-gradient:
+    var(--paper-lines-y),
+    var(--paper-lines-x),
+    var(--paper-lines-y-major),
+    var(--paper-lines-x-major),
+    var(--paper-cross-mask),
+    var(--paper-cross-y),
+    var(--paper-cross-x);
+
+  background-size:
+    var(--grid-gap) var(--grid-gap),
+    var(--grid-gap) var(--grid-gap),
+    calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
+    calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
+    calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
+    calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
+    calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5);
+
+  background-repeat:
+    repeat,
+    repeat,
+    repeat,
+    repeat,
+    repeat,
+    repeat,
+    repeat;
+
+  background-position:
+    var(--grid-border) var(--grid-border),
+    var(--grid-border) var(--grid-border),
+    var(--grid-border) var(--grid-border),
+    var(--grid-border) var(--grid-border),
+    calc(var(--grid-border) - var(--grid-gap) * 2.5) calc(var(--grid-border) - var(--grid-gap) * 2.5),
+    var(--grid-border) var(--grid-border),
+    var(--grid-border) var(--grid-border);
+
+  background-color: var(--grid-bg);
+  background-image: var(--paper-gradient);
+
+  box-shadow: inset 0 0 0 var(--grid-border) var(--grid-bg), inset 0 0 0 calc(var(--grid-border) + 1px) var(--grid-cross), inset 0 0 0 calc(var(--grid-border) + 1px) var(--bg2);
+  padding: var(--grid-border);
+
+  min-width: 100svw;
+  min-height: 100svh;
+
+  transition: --grid-gap 0.2s ease-in-out;
 }
 
 main {
   flex-grow: 1;
 }
 
-header, footer {
+header,
+footer {
   padding: 10px 5px;
   background: $primary-color;
   color: white;
@@ -76,7 +154,7 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
-  width:100%;
+  width: 100%;
 }
 
 nav {
@@ -117,13 +195,33 @@ nav {
   overflow-x: auto;
 }
 
-.highlight .k { color: #c792ea; }
-.highlight .nb { color: #82aaff; }
-.highlight .s { color: #c3e88d; }
-.highlight .mi { color: #f78c6c; }
-.highlight .c { color: #5c6370; }
-.highlight .p { color: #89ddff; }
-.highlight .o { color: #ff5370; }
+.highlight .k {
+  color: #c792ea;
+}
+
+.highlight .nb {
+  color: #82aaff;
+}
+
+.highlight .s {
+  color: #c3e88d;
+}
+
+.highlight .mi {
+  color: #f78c6c;
+}
+
+.highlight .c {
+  color: #5c6370;
+}
+
+.highlight .p {
+  color: #89ddff;
+}
+
+.highlight .o {
+  color: #ff5370;
+}
 
 .profile-image {
   float: left;
@@ -155,7 +253,8 @@ nav {
   }
 }
 
-.profile-image, .project-image {
+.profile-image,
+.project-image {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -175,15 +274,15 @@ nav {
   padding: 20px;
   margin: 0 auto;
   max-width: 100%;
-  height:auto;
+  height: auto;
 }
 
 .gallery-item {
   overflow: visible;
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 250px; 
-  height: auto; 
+  max-width: 250px;
+  height: auto;
 }
 
 .gallery-item img {
@@ -208,7 +307,7 @@ nav {
 }
 
 .gallery-item:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .project-image {
@@ -219,7 +318,7 @@ nav {
 .back-arrow {
   display: inline-block;
   font-size: 1.1em;
-  color: #686d85; 
+  color: #686d85;
   text-decoration: none;
   margin-bottom: 1em;
   font-weight: bold;
@@ -227,6 +326,6 @@ nav {
 }
 
 .back-arrow:hover {
-  color: #3a3f58; 
+  color: #3a3f58;
   transform: translateX(-4px);
 }
